@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+.hourse-container {
+    // max-width: 1920px;
+    margin: 0 auto;
+
+    .hourse-box {
+        
+        .header {
+            overflow: hidden;
+
+            .header-box {
+                background-image: url(../../assets/img/header-img/background.jpeg);
+                width: 100%;
+                height: 100vh;
+                background-repeat: no-  ;
+                background-size: cover;
+
+                .header-box-space-betwen-img {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    .header-box-space-betwen-background-img1 {
+                        background-image: url(../../assets/img/header-img/right-img.png);
+                        width: 211px;
+                        height: 435px;
+                        margin-top: -449px;
+                        background-position: left left;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                    }
+
+                    .header-box-space-betwen-background-img2 {
+                        background-image: url(../../assets/img/header-img/left-img.png);
+                        width: 167px;
+                        height: 632px;
+                        margin-top: -449px;
+                        background-position: right right;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+
+                    }
+                }
+
+                .navbar {
+                    .nabbar-box {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        gap: 347px;
+
+                        .nav-center-number-div {
+                            display: flex;
+                            align-items: center;
+                            gap: 57px;
+
+                            .nav-center-text {
+                                display: flex;
+                                align-items: center;
+                                gap: 17px;
+
+                                .link1,
+                                .link2,
+                                .link3,
+                                .link4 {
+                                    color: rgb(32, 32, 32);
+                                    font-family: "Roboto", sans-serif;
+                                    font-size: 13px;
+                                    font-weight: 400;
+                                    line-height: 15px;
+                                    text-align: right;
+                                    text-transform: uppercase;
+                                    text-decoration: none;
+                                }
+                            }
+
+                            .nav-number {
+                                display: flex;
+                                align-items: start;
+                                gap: 10px;
+
+                                .number {
+                                    display: flex;
+                                    flex-direction: column;
+                                    gap: 8px;
+
+                                    p:nth-child(1) {
+                                        color: rgb(32, 32, 32);
+                                        font-family: "Roboto", sans-serif;
+                                        font-size: 18px;
+                                        font-weight: 700;
+                                        line-height: 21px;
+                                        text-align: left;
+                                    }
+
+                                    p:nth-child(2) {
+                                        color: rgb(125, 128, 138);
+                                        font-family: "Roboto", sans-serif;
+                                        font-size: 13px;
+                                        font-weight: 400;
+                                        line-height: 15px;
+                                        letter-spacing: 0%;
+                                        text-align: left;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .header-hourse-text-div {
+
+                    max-width: 1095px;
+                    margin: 0 auto;
+                    margin-top: 104px;
+
+                    .header-hourse-text-div-box {
+                        display: flex;
+                        align-items: center;
+                        justify-content: start;
+
+                        .header-hourse-text-p {
+                            display: flex;
+                            align-items: start;
+                            flex-direction: column;
+                            gap: 40px;
+
+                            p:nth-child(1) {
+                                width: 613px;
+                                color: rgb(0, 0, 0);
+                                font-size: 57px;
+                                font-family: "Philosopher", sans-serif;
+                                font-weight: 700;
+                                line-height: 107%;
+                                letter-spacing: 0%;
+                                text-align: left;
+
+                            }
+
+                            p:nth-child(2) {
+                                color: rgb(100, 100, 100);
+
+                                font-family: "Alegreya Sans", sans-serif;
+                                font-size: 24px;
+                                font-weight: 700;
+                                line-height: 140%;
+                                letter-spacing: 0%;
+                                text-align: left;
+                                width: 477px;
+
+                                span {
+                                    color: rgb(69, 69, 69);
+                                }
+                            }
+                        }
+
+                        .header-hourse-img-div {
+                            .header-qush-background-image {
+                                background-image: url(../../assets/img/header-img/qushlar-img.png);
+                                width: 272px;
+                                height: 86px;
+                                background-repeat: no-repeat;
+                                background-position: right;
+                                float: right;
+                                background-size: cover;
+                                margin-left: 350px;
+                            }
+
+                            .header-hourse-background-image {
+                                background-image: url(../../assets/img/header-img/hourse-header.png);
+                                width: 557px;
+                                height: 671px;
+                                background-position: center;
+                                background-size: cover;
+                            }
+                        }
+
+                        .header-hourse-text-div-button {
+                            width: 270px;
+                            height: 70px;
+                            border-radius: 5px;
+                            box-shadow: 0px 4px 0px 0px rgb(200, 156, 0);
+                            background: linear-gradient(180.00deg, rgb(155, 207, 255), rgb(255, 243, 131) 0.01%, rgb(255, 199, 0) 100%);
+                            border: none;
+                            color: rgb(106, 83, 0);
+                            font-family: "Montserrat", sans-serif;
+                            font-size: 15px;
+                            font-weight: 600;
+                            line-height: 32px;
+                            letter-spacing: 7%;
+                            text-align: center;
+                            text-transform: uppercase;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

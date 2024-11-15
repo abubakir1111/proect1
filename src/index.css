@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.app-container{
+  margin: 0 auto;
+}
+
+
+/* Custom pagination styling */
+.custom-pagination {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.custom-pagination .swiper-pagination-bullet {
+  background-color: rgb(225, 225, 225);
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+/* Active nuqta uchun */
+.custom-pagination .swiper-pagination-bullet-active {
+  background-color: rgb(255, 199, 0); 
+  opacity: 1; 
+}
+
+
+.main-img-swiper-div1 {
+  img{
+    margin: 2px;
+  }
+}
+.main-img-swiper-div2 {
+  img{
+    margin: 2px;
+  }
+}
+.swiper-card{
+  overflow: visible;
+}
