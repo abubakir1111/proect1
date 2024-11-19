@@ -1,11 +1,15 @@
 import React from 'react'
+import './footer.scss'
+import Login from './Login/Login'
 
-function footer() {
+function Footer() {
   return (
-    <div>
-      <p>lorem</p>
+    <div className='footer-container'>
+      <div className="footer-container-box">
+        <Login />
+      </div>
     </div>
   )
 }
 
-export default footer
+export default Footer

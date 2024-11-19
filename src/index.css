@@ -44,3 +44,31 @@
 .swiper-card{
   overflow: visible;
 }
+
+.login-img1{
+  background-image: url(./assets/img/footer/login/pin.png);
+  width: 14px;
+  height: 22px;
+  background-size: contain;
+}
+.login-img2{
+  width: 19px;
+  height: 19px;
+  background-size: contain;
+
+  background-image: url(./assets/img/footer/login/Телефон.png);
+}
+.login-img3{
+  width: 22px;
+  background-size: contain;
+
+  height: 16px;
+  background-image: url(./assets/img/footer/login/почта.png);
+}
+.login-img4{
+  width: 20px;
+  background-size: contain;
+
+  height: 20px;
+  background-image: url(./assets/img/footer/login/часы.png);
+}
